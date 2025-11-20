@@ -6,6 +6,11 @@ export default function PortfolioSection() {
      <div className="w-full min-h-screen bg-[#141414] text-white flex flex-col items-center px-4 py-10">
 
 {/* Top Images */}
+
+      <h1 className="text-4xl font-bold text-center mb-10" style={{ color: '#fa0000' }}>
+        Portfolio
+      </h1>
+
       <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
         <img src={assets.portfolio_img_3} alt="Portfolio 1" className="rounded-xl w-full" />
         <img src={assets.portfolio_img_4} alt="Portfolio 2" className="rounded-xl w-full" />
@@ -72,9 +77,6 @@ export default function PortfolioSection() {
 
 
       {/* Title */}
-      <h1 className="text-4xl font-bold text-center mb-10" style={{ color: '#fa0000' }}>
-        Portfolio
-      </h1>
 
       {/* Top Images */}
       <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
