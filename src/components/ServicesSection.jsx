@@ -9,7 +9,7 @@ const ServicesSection = () => {
       What's Included:
       ✅ 1-page responsive design (desktop 1440px + mobile 375px)
       ✅ Up to 7 sections (Hero, About, Products/Services, Social Proof, Contact, Footer, etc.)
-      ✅ You will get a PDF where I explain in detail about my design decision.
+      ✅ You will get a PDF where I explain in detail about my design decisions.
       ✅ Copy guidance & headline optimization
       ✅ Figma file delivered (editable, organized)
       ✅ All assets exported (images, etc.)
