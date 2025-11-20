@@ -73,7 +73,7 @@ export default function PortfolioSection() {
         <img src={assets.screenshot16} alt="s16" className="rounded-lg" />
       </div>
 
-      <p className="text-center text-gray-400 italic"><a href="https://www.figma.com/proto/p4Fv3bugkoTPCFYWw5m68K/Coffee-Shop-Website?page-id=0%3A1&node-id=48-2&viewport=268%2C373%2C0.56&t=z6eLUqykNjvVojDs-1&scaling=min-zoom&content-scaling=fixed" target="/">Mobile View (Click Here)</a></p>
+      <p className="text-center text-gray-400 italic mb-20"><a href="https://www.figma.com/proto/p4Fv3bugkoTPCFYWw5m68K/Coffee-Shop-Website?page-id=0%3A1&node-id=48-2&viewport=268%2C373%2C0.56&t=z6eLUqykNjvVojDs-1&scaling=min-zoom&content-scaling=fixed" target="/">Mobile View (Click Here)</a></p>
 
 
       {/* Title */}
@@ -144,7 +144,7 @@ export default function PortfolioSection() {
         <img src={assets.screenshot8} alt="s8" className="rounded-lg" />
       </div>
 
-      <p className="text-center text-gray-400 italic mb-20"><a href="https://www.figma.com/proto/PW6kc702X52ZRzj6bbDvkp/Furniture-landing-page?page-id=0%3A1&node-id=98-3&viewport=1049%2C886%2C0.48&t=WSQHilgHOHUD2aqI-1&scaling=min-zoom&content-scaling=fixed">Mobile View (Click Here)</a></p>
+      <p className="text-center text-gray-400 italic mb-12"><a href="https://www.figma.com/proto/PW6kc702X52ZRzj6bbDvkp/Furniture-landing-page?page-id=0%3A1&node-id=98-3&viewport=1049%2C886%2C0.48&t=WSQHilgHOHUD2aqI-1&scaling=min-zoom&content-scaling=fixed">Mobile View (Click Here)</a></p>
 
 
     </div>
