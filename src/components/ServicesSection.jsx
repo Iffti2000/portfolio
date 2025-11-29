@@ -4,7 +4,7 @@ import ServiceCard from './ServiceCard';
 const ServicesSection = () => {
   const services = [
     {
-      title: "🔧 Landing Page design - 500$",
+      title: "🔧 Landing Page design - 700$",
       description: `
       What's Included:
       ✅ 1-page responsive design (desktop 1440px + mobile 375px)
