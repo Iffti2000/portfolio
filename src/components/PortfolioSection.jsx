@@ -3,7 +3,7 @@ import { assets } from '../assets/assets';
 
 export default function PortfolioSection() {
   return (
-     <div className="w-full min-h-screen bg-[#141414] text-white flex flex-col items-center px-4 py-10">
+     <div id="portfolio" className="w-full min-h-screen bg-[#141414] text-white flex flex-col items-center px-4 py-10">
 
 {/* Top Images */}
 
