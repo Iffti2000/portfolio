@@ -7,7 +7,7 @@ export default function PortfolioSection() {
 
 {/* Top Images */}
 
-      <h1 className="text-4xl font-bold text-center mb-10" style={{ color: '#fa0000' }}>
+      <h1 className="text-center text-5xl font-bold md:text-6xl mb-16" style={{ color: '#fa0000' }}>
         Portfolio
       </h1>
 
