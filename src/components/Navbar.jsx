@@ -22,6 +22,9 @@ const Navbar = () => {
         <Link to="service-cards" smooth={true} duration={600}>
           <li className="text-white hover:text-red-500 cursor-pointer transition-colors duration-300">Services</li>
         </Link>
+        <Link to="more" smooth={true} duration={600}>
+          <li className="text-white hover:text-red-500 cursor-pointer transition-colors duration-300">More</li>
+        </Link>
         <Link to="about" smooth={true} duration={600}>
           <li className="text-white hover:text-red-500 cursor-pointer transition-colors duration-300">About</li>
         </Link>

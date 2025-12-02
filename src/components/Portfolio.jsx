@@ -6,6 +6,7 @@ import ServicesSection from './ServicesSection';
 import Footer from './Footer';
 import PreviousProjects from './PreviousProjects';
 import PortfolioSection from './PortfolioSection';
+import QNA from './QNA';
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,7 @@ const Portfolio = () => {
       <Navbar />
       <Hero />
       <PortfolioSection/>
+      <QNA/>
       <ServicesSection />
       <About />
       <Footer />

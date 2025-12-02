@@ -1,53 +1,141 @@
-import React from 'react'
-import { assets } from '../assets/assets';
-import { Link } from 'react-scroll';
+import React from "react";
+import { assets } from "../assets/assets";
 
 const Hero = () => {
   return (
-    <section 
-      id="hero" 
-      className="w-full min-h-screen bg-[#141414] flex flex-col justify-center pt-32 md:pt-40"
+    <section
+      id="hero"
+      className="w-full min-h-screen bg-[#141414] flex items-center 
+      pt-44 md:pt-52 pb-20"
     >
-      <div className="flex flex-col md:flex-row items-center justify-around gap-12 px-6 md:px-40 text-center md:text-left">
-        <div className="">
-          <p className="text-lg mb-8 text-gray-300">Hi, I'm Iffti Rahman</p>
-         <h1 className="text-5xl md:text-6xl mb-10 font-bold leading-tight relative inline-block">
-            Your Go To <span className="relative inline-block">
-              <span className="relative inline-block"> <span className="relative z-10">Online</span> <span className="absolute inset-0 w-40 h-40 bg-red-500 rounded-full blur-3xl opacity-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 "></span> </span>
-
-            </span> 
-            <br />
-            <span className="text-[#fa0000]">Product Designer</span>
-          </h1>
-          <p className="text-gray-300 mb-8">
-           Creating designs and visuals that adds value to your business and help your <br /> business thrive. Work with me to get conversion-focused designs that will grow <br /> your business bigger than its today.  
-          </p>
-                <button
-        onClick={(e) => {
-          e.preventDefault();
-          if (window.Calendly) {
-            window.Calendly.initPopupWidget({
-              url: 'https://calendly.com/iffti2000',
-            });
-          } else {
-            console.error("Calendly script not loaded yet");
-          }
-        }}
-        className="rounded-full text-sm px-8 py-3 font-medium cursor-pointer border-2 border-red-500 text-white 
-        shadow-[0_0_15px_rgba(248,55,55,0.3)] hover:shadow-[0_0_25px_rgba(248,55,55,0.5)] transition-all"
+      <div
+        className="w-full flex flex-col md:flex-row items-center justify-between 
+        gap-28 px-6 md:px-64 text-center md:text-left"
       >
-        Schedule a Call
-      </button>
+        {/* ================= LEFT CONTENT ================= */}
+        <div className="max-w-xl">
+          <h1 className="text-5xl md:text-4xl font-bold leading-tight mb-6">
+            Landing Page Design for <br />
+            <span className="block mt-2">
+              Small Business –{" "}
+              <span className="text-[#fa0000]">$400</span>
+            </span>
+          </h1>
 
+          <p className="text-gray-300 mb-6 text-lg">
+            Conversion-Focused | Mobile-First | Business-Ready
+          </p>
+
+          <p className="text-gray-400 mb-8 leading-relaxed">
+            I design high-converting landing pages that help small businesses
+            get more inquiries, bookings, and sales — not just a pretty website.
+          </p>
+
+          {/* CHECKLIST */}
+          <div className="flex flex-col gap-2 mb-10 text-gray-300">
+            <div className="flex items-center gap-2">
+              ✅ <span>7–10 day delivery</span>
+            </div>
+            <div className="flex items-center gap-2">
+              ✅ <span>3 revisions included</span>
+            </div>
+            <div className="flex items-center gap-2">
+              ✅ <span>50% to start, 50% on delivery</span>
+            </div>
+          </div>
+
+          {/* BUTTON */}
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              window.Calendly?.initPopupWidget({
+                url: "https://calendly.com/iffti2000",
+              });
+            }}
+            className="bg-[#fa0000] hover:bg-red-600 
+            text-white px-10 py-4 rounded-full text-sm font-medium
+            shadow-[0_0_20px_rgba(250,0,0,0.4)] transition-all"
+          >
+            Start My Project
+          </button>
         </div>
-        <img 
-          src={assets.my_img}
-          alt="Iffti Rahman" 
-          className="w-60 md:w-80"
-        />
+
+        {/* ================= RIGHT IMAGE CARD ================= */}
+        <div className="flex justify-center md:justify-end w-full md:w-auto">
+        <div className="relative">
+          <img
+            src={assets.my_img}
+            alt="Iffti Rahman"
+            className="w-64 md:w-80 rounded-3xl relative z-10"
+          />
+
+          {/* subtle glow behind image */}
+          <div className="absolute inset-0 opacity-20 rounded-full"></div>
+
+          <div className="text-center mt-4">
+            <p className="text-white font-semibold">Iffti Rahman</p>
+            <p className="text-gray-400 text-sm">UX Designer</p>
+          </div>
+        </div>
+      </div>
+
       </div>
     </section>
   );
 };
 
 export default Hero;
+
+// import React from 'react'
+// import { assets } from '../assets/assets';
+// import { Link } from 'react-scroll';
+
+// const Hero = () => {
+//   return (
+//     <section 
+//       id="hero" 
+//       className="w-full min-h-screen bg-[#141414] flex flex-col justify-center pt-32 md:pt-40"
+//     >
+//       <div className="flex flex-col md:flex-row items-center justify-around gap-12 px-6 md:px-40 text-center md:text-left">
+//         <div className="">
+//           <p className="text-lg mb-8 text-gray-300">Hi, I'm Iffti Rahman</p>
+//          <h1 className="text-5xl md:text-6xl mb-10 font-bold leading-tight relative inline-block">
+//             Your Go To <span className="relative inline-block">
+//               <span className="relative inline-block"> <span className="relative z-10">Online</span> <span className="absolute inset-0 w-40 h-40 bg-red-500 rounded-full blur-3xl opacity-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 "></span> </span>
+
+//             </span> 
+//             <br />
+//             <span className="text-[#fa0000]">Product Designer</span>
+//           </h1>
+//           <p className="text-gray-300 mb-8">
+//            Creating designs and visuals that adds value to your business and help your <br /> business thrive. Work with me to get conversion-focused designs that will grow <br /> your business bigger than its today.  
+//           </p>
+//                 <button
+//         onClick={(e) => {
+//           e.preventDefault();
+//           if (window.Calendly) {
+//             window.Calendly.initPopupWidget({
+//               url: 'https://calendly.com/iffti2000',
+//             });
+//           } else {
+//             console.error("Calendly script not loaded yet");
+//           }
+//         }}
+//         className="rounded-full text-sm px-8 py-3 font-medium cursor-pointer border-2 border-red-500 text-white 
+//         shadow-[0_0_15px_rgba(248,55,55,0.3)] hover:shadow-[0_0_25px_rgba(248,55,55,0.5)] transition-all"
+//       >
+//         Schedule a Call
+//       </button>
+
+//         </div>
+//         <img 
+//           src={assets.my_img}
+//           alt="Iffti Rahman" 
+//           className="w-60 md:w-80"
+//         />
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Hero;

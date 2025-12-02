@@ -1,6 +1,17 @@
 import React from 'react'
 
 const ServiceCard = ({ title, description }) => {
+
+  const handleCalendly = () => {
+    if (window.Calendly) {
+      window.Calendly.initPopupWidget({
+        url: 'https://calendly.com/iffti2000',
+      });
+    } else {
+      console.error("Calendly script not loaded yet");
+    }
+  };
+
   return (
     <div className="
       w-full md:w-[45%] p-8 rounded-3xl
@@ -18,9 +29,17 @@ const ServiceCard = ({ title, description }) => {
       <p className="text-gray-300 whitespace-pre-line leading-7 text-[15px]">
         {description}
       </p>
+
+      {/* CLICKABLE CTA */}
+      <p
+        onClick={handleCalendly}
+        className="mt-6 text-[#fa0000] font-semibold cursor-pointer hover:underline transition"
+      >
+        👉 Start My Project
+      </p>
     </div>
   )
 }
 
-export default ServiceCard
+export default ServiceCard;
 
