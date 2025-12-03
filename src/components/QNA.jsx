@@ -15,8 +15,8 @@ export default function QNA() {
         "I treat every project like my own business",
         "Honesty > fake social proof"
       ],
-      bgColor: "bg-red-500",
-      hoverColor: "hover:bg-red-600"
+      bgColor: "bg-green-500",
+      hoverColor: "hover:bg-green-600"
     },
     {
       question: "Do you also develop the website?",
