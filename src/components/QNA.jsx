@@ -49,7 +49,7 @@ export default function QNA() {
   };
 
   return (
-    <div id='more' className="bg-[#141414] text-white py-16 px-4">
+    <div id='more' className="bg-[#141414] text-white py-36 px-4">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
           More Info
