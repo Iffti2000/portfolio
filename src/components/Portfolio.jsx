@@ -12,8 +12,8 @@ const Portfolio = () => {
       {/* Font Awesome CDN would be added in index.html */}
       <Navbar />
       <Hero />
-      <QNA/>
       <ServicesSection />
+      <QNA/>
       <About />
       <Footer />
     </div>
