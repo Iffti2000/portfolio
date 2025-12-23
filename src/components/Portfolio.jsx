@@ -4,8 +4,6 @@ import Hero from './Hero';
 import About from './About';
 import ServicesSection from './ServicesSection';
 import Footer from './Footer';
-import PreviousProjects from './PreviousProjects';
-import PortfolioSection from './PortfolioSection';
 import QNA from './QNA';
 
 const Portfolio = () => {
