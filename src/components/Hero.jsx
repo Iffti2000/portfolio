@@ -18,7 +18,7 @@ const Hero = () => {
             Landing Page Design for <br />
             <span className="block mt-2">
               GYMS 💪 –{" "}
-              <span className="text-[#fa0000]">$600</span>
+              <span className="text-[#fa0000]">$400</span>
             </span>
           </h1>
 
